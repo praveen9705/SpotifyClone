@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Spotify Clone</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="sidebar">
+            <h2 class="spotify-title">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify Logo" class="spotify-logo">
+                Spotify
+            </h2>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Your Library</a></li>
+                <li><a href="#">Playlists</a></li>
+                <li><a href="#">Favorites</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+            
+        </div>
+        
+        <div class="main-content">
+            <div class="header">
+                <div class="top-header">
+                    <div>
+                        <header>
+                            <div class="search-container">
+                                <input type="text" placeholder="Search for artists, songs, or playlists..." class="search-bar">
+                                <button class="search-button"><i class="fas fa-search"></i></button>
+                            </div>
+                        </header>
+                    </div>
+                    
+                    <div class="profile">
+                        <span class="profile-name" onclick="toggleDropdown()">
+                            <img src="images/profile.jpg" alt="Profile Image" class="profile-img"> Praveen Kumar
+                        </span>
+                        <div class="dropdown-content" id="dropdown">
+                            <a href="#">Profile</a>
+                            <a href="#">Subscription</a>
+                            <a href="#">Library</a>
+                            <a href="login.html">Logout</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <h2>Featured Playlists</h2>
+            <div class="playlists">
+                <div class="playlist" tabindex="0">
+                    <img src="images/fp-1.jpg" alt="Playlist 1">
+                    
+                    <p>Chill Vibes</p>
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/fp-2.jpg" alt="Playlist 2">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Top Hits</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/fp-3.jpeg" alt="Playlist 3">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Workout Mix</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/fp-4.jpeg" alt="Playlist 4">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Classical Essentials</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/fp-5.jpeg" alt="Playlist 5">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Morning Mix</p>
+                    </div>
+                    <div class="playlist" tabindex="0">
+                        <img src="images/fp-6.jpeg" alt="Playlist 6">
+                        <span class="play-button"><i class="fas fa-play"></i></span>
+                        <p>Rock Classics</p>
+                        </div>
+                    
+            </div>
+            <h2>Top 6 Songs 2024</h2>
+            <div class="playlists">
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-1.jpg" alt="Playlist 1">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Chuttamalle</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-2.jpg" alt="Playlist 2">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Dheema</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-3.jpg" alt="Playlist 3">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Sooseki</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-4.jpg" alt="Playlist 4">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Hey Minnale</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-5.jpg" alt="Playlist 5">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Kurchi Madathapetti</p>
+                    </div>
+                    <div class="playlist" tabindex="0">
+                        <img src="images/t5-6.jpg" alt="Playlist 6">
+                        <span class="play-button"><i class="fas fa-play"></i></span>
+                        <p>Ta Takkara</p>
+                        </div>
+                    
+            </div>
+            <h2>New Released</h2>
+            <div class="playlists">
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-1.jpg" alt="Playlist 1">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Devara</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-2.jpg" alt="Playlist 2">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Love Insurance Kompany</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-4.jpg" alt="Playlist 3">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Amaran</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-6.jpg" alt="Playlist 4">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Kalki</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/t5-3.jpg" alt="Playlist 5">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Pushpa - The Rule</p>
+                    </div>
+                    <div class="playlist" tabindex="0">
+                        <img src="images/t5-5.jpg" alt="Playlist 6">
+                        <span class="play-button"><i class="fas fa-play"></i></span>
+                        <p>Guntur Kaaram</p>
+                        </div>
+                    
+            </div>
+            <h2>Old Lists</h2>
+            <div class="playlists">
+                <div class="playlist" tabindex="0">
+                    <img src="images/ol-1.jpeg" alt="Playlist 1">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Chill Vibes</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/ol-2.jpeg" alt="Playlist 2">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Top Hits</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/ol-3.jpeg" alt="Playlist 3">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Workout Mix</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/ol-4.jpeg" alt="Playlist 4">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Classical Essentials</p>
+                </div>
+                <div class="playlist" tabindex="0">
+                    <img src="images/ol-5.jpeg" alt="Playlist 5">
+                    <span class="play-button"><i class="fas fa-play"></i></span>
+                    <p>Morning Mix</p>
+                    </div>
+                    <div class="playlist" tabindex="0">
+                        <img src="images/ol-6.jpeg" alt="Playlist 6">
+                        <span class="play-button"><i class="fas fa-play"></i></span>
+                        <p>Rock Classics</p>
+                        </div>
+                    
+            </div>
+            <div class="footer bottom-section">
+                <footer><p>Copyright © 2021 Spotify, Inc.</p></footer>
+            </div>
+            </div>
+           
+    </div>
+    
+    <script>
+        function toggleDropdown() {
+            document.getElementById("dropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.profile-name')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
